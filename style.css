@@ -1,1 +1,112 @@
 
+:root {
+  --bg: #fff9f5;
+  --main: #ffe7ec;
+  --accent: #d24c65;
+  --font: 'Segoe UI', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font);
+  background-color: var(--bg);
+  color: #333;
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+header {
+  background-color: var(--main);
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+header h1 {
+  color: var(--accent);
+  font-size: 2.5rem;
+}
+
+header p {
+  max-width: 600px;
+  margin: 1rem auto 0;
+  font-size: 1.1rem;
+}
+
+.container {
+  max-width: 720px;
+  margin: auto;
+  padding: 1.5rem;
+}
+
+.image {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.image img {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  margin-top: 2rem;
+  color: var(--accent);
+}
+
+ul, ol {
+  margin: 1rem 0 2rem 1.5rem;
+}
+
+.tips {
+  background-color: #fff0f4;
+  padding: 1rem;
+  border-left: 4px solid var(--accent);
+  margin-top: 2rem;
+  border-radius: 6px;
+}
+button {
+  margin-top: 2rem;
+  padding: 0.5rem 1rem;
+  background-color: var(--accent);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+
+.print {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.print button {
+  background-color: var(--accent);
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.print button:hover {
+  background-color: #b73a52;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: var(--main);
+  font-size: 0.9rem;
+  margin-top: 2rem;
+}
+
